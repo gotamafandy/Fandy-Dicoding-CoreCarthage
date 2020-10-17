@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		A66DD41E19A8DAAA1A79B2F1 /* Pods_Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56EDD1B65BF5EE006DBB992E /* Pods_Core.framework */; };
-		A72D0B232535FD0B00068E83 /* Core.h in Headers */ = {isa = PBXBuildFile; fileRef = A72D0B212535FD0B00068E83 /* Core.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A72D0B3A2535FD6B00068E83 /* UseCaseType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72D0B392535FD6B00068E83 /* UseCaseType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -17,9 +15,6 @@
 		6E45A9BC6601B09970E0B8D5 /* Pods-Core.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Core.debug.xcconfig"; path = "../../Core/Pods/Target Support Files/Pods-Core/Pods-Core.debug.xcconfig"; sourceTree = "<group>"; };
 		7D9C25D30147DF0D3E641752 /* Pods-Core.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Core.release.xcconfig"; path = "../../Core/Pods/Target Support Files/Pods-Core/Pods-Core.release.xcconfig"; sourceTree = "<group>"; };
 		A72D0B1E2535FD0B00068E83 /* Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A72D0B212535FD0B00068E83 /* Core.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Core.h; sourceTree = "<group>"; };
-		A72D0B222535FD0B00068E83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A72D0B392535FD6B00068E83 /* UseCaseType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseCaseType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +50,6 @@
 		A72D0B142535FD0B00068E83 = {
 			isa = PBXGroup;
 			children = (
-				A72D0B202535FD0B00068E83 /* Core */,
 				A72D0B1F2535FD0B00068E83 /* Products */,
 				01DB8095BEF163A190B041D6 /* Pods */,
 				A4E1BC65D9580209C372A044 /* Frameworks */,
@@ -70,32 +64,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A72D0B202535FD0B00068E83 /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				A72D0B352535FD4800068E83 /* Domain */,
-				A72D0B212535FD0B00068E83 /* Core.h */,
-				A72D0B222535FD0B00068E83 /* Info.plist */,
-			);
-			path = Core;
-			sourceTree = "<group>";
-		};
-		A72D0B352535FD4800068E83 /* Domain */ = {
-			isa = PBXGroup;
-			children = (
-				A72D0B372535FD5800068E83 /* UseCase */,
-			);
-			path = Domain;
-			sourceTree = "<group>";
-		};
-		A72D0B372535FD5800068E83 /* UseCase */ = {
-			isa = PBXGroup;
-			children = (
-				A72D0B392535FD6B00068E83 /* UseCaseType.swift */,
-			);
-			path = UseCase;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -103,7 +71,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A72D0B232535FD0B00068E83 /* Core.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,7 +168,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A72D0B3A2535FD6B00068E83 /* UseCaseType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

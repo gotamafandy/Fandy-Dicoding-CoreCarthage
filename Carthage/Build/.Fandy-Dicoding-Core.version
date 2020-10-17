@@ -1,0 +1,19 @@
+{
+  "Mac" : [
+
+  ],
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+
+  ],
+  "commitish" : "1.0.1",
+  "iOS" : [
+    {
+      "name" : "Core",
+      "hash" : "7ae6d8bc95f868a9755dd5bc46bab84afaef65a0c29b7fef81627ccf3793ff87",
+      "linking" : "dynamic"
+    }
+  ]
+}
